@@ -2,6 +2,7 @@ from django.shortcuts import render,get_object_or_404
 from django.http import JsonResponse
 from .models import Bozorlar,OnlineDokonlar
 
+
 # Create your views here.
 def all(request):
     all = OnlineDokonlar.objects.all()
